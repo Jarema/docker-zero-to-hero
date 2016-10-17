@@ -2,7 +2,7 @@
 
 ## Zadanie
 Stworzyć docker-compose z aplikacją i bazą danych
- Pliki pomocnicze w repozytorium zakładają (folder compose/1-wordpress), że będzie to Wordpress.
+ Pliki pomocnicze i rozwiazanie w [repozytorium](compose) zakładają, że będzie to Wordpress.
 
   ## Side quests
 
