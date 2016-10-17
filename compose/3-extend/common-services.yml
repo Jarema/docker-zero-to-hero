@@ -2,8 +2,9 @@ version: "2"
 
 services:
   webapp:
-    build: .
+    image: nginx
     ports:
-      - "8000:8000"
-    volumes:
-      - "/data"
+      - "8000:80"
+    restart: always
+    environment:
+      DUMMY1: dummy1
